@@ -26,9 +26,11 @@ which of the networks you want to display.
 For instance if a .hccap file has 4 networks in it (i.e. it could be splitted in 4 single
 .hccap files), you can display the single networks like this:  
   ./analyze_hccap.pl multi.hccap 2,3  
+  
+
 By doing so only the second and third network are shown (out of 4).
-It is a comma-separated list. Single networks can also be filtered, for instance:  j
-  ./analyze_hccap.pl mutli.hccap 1
+It is a comma-separated list. Single networks can also be filtered, for instance:    
+  ./analyze_hccap.pl mutli.hccap 1  
 will show only the first network
  
 # Hacking
