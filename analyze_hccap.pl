@@ -1,5 +1,9 @@
 #!/usr/bin/env perl
 
+# Author: philsmd
+# License: public domain
+# First released: January 2015
+
 use strict;
 use warnings;
 
