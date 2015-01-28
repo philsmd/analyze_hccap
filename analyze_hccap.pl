@@ -11,6 +11,8 @@ use warnings;
 
 my $HCCAP_STRUCT_SIZE = 392;
 
+# START
+
 if (scalar (@ARGV) < 1)
 {
   print ("ERROR: Please specify the .hccap file\n");
