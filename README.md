@@ -1,8 +1,10 @@
 # About
 
-The goal of this project is to make the content of a hashcat .hccap file human-readable.
-The format of these files is defined here: https://hashcat.net/wiki/doku.php?id=hccap
-
+The goal of this project is to make the content of a hashcat .hccap file human-readable.  
+The format of these files is defined here: https://hashcat.net/wiki/doku.php?id=hccap  
+  
+Note: for the new .hccapx format you could use the [analyze_hccapx tool](https://github.com/philsmd/analyze_hccapx/)  
+  
 # Requirements
 
 Software:  
@@ -13,9 +15,9 @@ Software:
 
 * Clone this repository:  
     git clone https://github.com/philsmd/analyze_hccap.git  
-* Enter the repository root folder:
+* Enter the repository root folder:  
     cd analyze_hccap
-* Get a test hccap file (e.g):
+* Get a test hccap file (e.g):  
     wget http://hashcat.net/misc/example_hashes/hashcat.hccap
 * Run it:  
     ./analyze_hccap.pl hashcat.hccap
