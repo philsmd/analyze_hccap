@@ -3,7 +3,7 @@
 The goal of this project is to make the content of a hashcat .hccap file human-readable.  
 The format of these files is defined here: https://hashcat.net/wiki/doku.php?id=hccap  
   
-Note: for the new .hccapx format you could use the [analyze_hccapx tool](https://github.com/philsmd/analyze_hccapx/)  
+Note: for the new .hccapx format you can use the [analyze_hccapx tool](https://github.com/philsmd/analyze_hccapx/)  
   
 # Requirements
 
